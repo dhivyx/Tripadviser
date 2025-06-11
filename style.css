@@ -1,0 +1,644 @@
+/* CSS code to define the font */
+@font-face {
+    font-family: 'Trip Sans Regular';
+    /* Choose a unique name for your font family */
+    src: url('fonts/trip-sans-regular.woff2') format('woff2'),
+        /* Replace with your font file and format */
+        url('fonts/trip-sans-regular.woff') format('woff');
+    /* Optional: Include other formats for compatibility */
+}
+
+/* Apply the font to elements */
+body {
+    font-family: 'Trip Sans Regular', sans-serif;
+    /* Add a fallback font */
+    font-weight: bold;
+}
+
+
+body {
+    padding-left: 70px;
+    padding-right: 70px;
+    margin: 0px;
+
+}
+
+.navbar__1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    z-index: 1;
+}
+
+
+.navbar__1 {
+    margin-bottom: 5px;
+}
+
+.navbar__s1__title {
+    margin: 5px;
+}
+
+.navbar__s1 {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__s1__title {
+    font-size: 1.7rem;
+    font-weight: 900;
+}
+
+.navbar__s1 img {
+    width: 40px;
+    height: 40px;
+}
+
+.navbar__s2 {
+    display: flex;
+    gap: 30px;
+}
+
+.navbar__s3 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.navbar__s3__button {
+    background-color: black;
+    color: white;
+    font-size: medium;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 35px;
+}
+
+.slomo__title {
+    text-align: center;
+}
+
+.nav__2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.nav__2__desc {
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+.search__bar {
+    border: solid white 1px;
+    border-radius: 35px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 70%;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.search__bar input {
+    border: none;
+    width: 100%;
+    font-size: 16px;
+}
+
+.search__bar__button button {
+    background-color: #34E0A1;
+    color: black;
+    border: solid #1a9266 1.5px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 35px;
+    font-size: 16px;
+    margin-top: 0px;
+}
+
+
+
+.hotelimage {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.hotelimage img {
+    width: 90%;
+    height: 20%;
+    border-radius: 15px;
+}
+
+
+.world__hotels__title {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.world__hotels p {
+    font-weight: lighter;
+    margin: 0px;
+
+}
+
+.world__hotels__cards {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+
+}
+
+.card {
+    flex-grow: 1;
+    flex-basis: 35%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.card img {
+    width: 100%;
+    height: 240px;
+    display: block;
+}
+
+.card h1 {
+    position: absolute;
+    margin: 0px;
+    bottom: 0px;
+    width: 100%;
+    padding: 8px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.35);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+
+}
+
+.madras__title {
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+.madras p {
+    font-weight: lighter;
+    margin: 0px;
+}
+
+.madras__container {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+
+}
+
+.madras__card {
+    flex-grow: 1;
+    flex-basis: 20%;
+    overflow: hidden;
+
+}
+
+.madras__card img {
+    width: 100%;
+    height: 240px;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 7px;
+}
+
+.madras__card h2 {
+    margin: 0px;
+    font-size: medium;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.madras__card p {
+    font-size: smaller;
+    margin: 0px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.madras__card h5 {
+    margin: 0px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.explore {
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #F2F1EC;
+    position: relative;
+    left: -70px;
+    width: calc(100% + 140px);
+}
+
+.explore__title {
+    margin: 0px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.explore__container {
+    display: flex;
+    gap: 15px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.container {
+    flex-grow: 1;
+    flex-basis: 20%;
+    overflow: hidden;
+
+}
+
+.container img {
+    width: 100%;
+    height: 220px;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.container h2 {
+    font-size: medium;
+    text-align: center;
+    margin: 0px;
+}
+
+.chennai {
+    margin-top: 80px;
+}
+
+.chennai__container {
+    display: flex;
+    gap: 15px;
+
+}
+
+.chennai__card {
+    flex-grow: 1;
+    flex-basis: 35%;
+    gap: 15px;
+    overflow: hidden;
+    position: relative;
+
+
+}
+
+.chennai__card img {
+    width: 100%;
+    height: 240px;
+    display: block;
+    border-radius: 5px;
+
+
+}
+
+.chennai__card h1 {
+    position: absolute;
+    bottom: 2px;
+    color: white;
+    font-size: 1.9rem;
+    font-weight: bold;
+    margin: 0px;
+    padding: 7px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.35);
+    border-radius: 2%;
+
+}
+
+.sponsor {
+    margin-top: 70px;
+    background-color: #F2ECF9;
+    display: flex;
+    padding: 25px;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.sponsor img {
+    width: 500px;
+    height: 600px;
+}
+
+.sponsor__container {
+    font-weight: lighter;
+    padding: 100px;
+}
+
+.sponsor__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sponsor__logo img {
+    width: 25px;
+    height: 25px;
+    padding: 7px;
+
+}
+
+.sponsor__logo a {
+    color: black;
+
+}
+
+.sponsor__container__title {
+    margin: 0%;
+}
+
+.sponsor__container h4 {
+    font-weight: lighter;
+    margin: 0%;
+
+}
+
+.sponsor__container button {
+    background-color: black;
+    color: white;
+    border: 0;
+    font-size: medium;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 35px;
+    margin-top: 15px;
+}
+
+.advertisement {
+    margin-top: 80px;
+    background-color: #FFF7E1;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    flex-basis: 20%;
+    position: relative;
+    left: -70px;
+    width: calc(100% + 140px);
+}
+
+.ad__desc {
+    width: 50%;
+    padding-left: 70px;
+    padding-right: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+
+.ad__desc img {
+    width: 80px;
+}
+
+
+.ad__desc h1 {
+    font-size: 2.7rem;
+    font-weight: bolder;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.ad__desc h2 {
+    font-weight: bold;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.ad__desc button {
+    background-color: black;
+    color: white;
+    width: fit-content;
+    border-radius: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin: 0%;
+    border: 0;
+
+}
+
+.ad__image {
+    position: relative;
+    padding: 15px;
+    width: 50%;
+    padding-left: 70px;
+    padding-right: 70px;
+    overflow: hidden;
+}
+
+.ad__image img {
+
+    top: 100px;
+    width: 100%;
+    height: auto;
+    border-radius: 110% 50% 120% 70% /110% 50% 120% 70%;
+    object-fit: cover;
+    z-index: 4;
+
+
+}
+
+.orange {
+    width: 200px;
+    height: 200px;
+    background-color: #F3B203;
+    border-radius: 50%;
+    margin: 0px;
+    z-index: 3;
+
+
+}
+
+.green {
+    width: 200px;
+    height: 200px;
+    right: 20px;
+    bottom: 20px;
+    background-color: #1a9266;
+    border-radius: 50%;
+    z-index: 2;
+
+
+}
+
+.footer {
+    background-color: #F2F2F2;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 60px;
+    position: relative;
+    left: -70px;
+    /* Negative of body's left padding */
+    width: calc(100% + 140px);
+
+
+
+}
+
+.footer__one {
+
+    font-weight: lighter;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+
+
+}
+
+.footer h3 {
+    font-weight: lighter;
+    font-size: medium;
+    margin: 3px;
+}
+
+.footer p {
+    margin: 3px;
+}
+
+.footer__one__left {
+    display: flex;
+    gap: 40px;
+}
+
+.footer__one__right a {
+    color: black;
+}
+
+.footer__two {
+    font-size: 0.9rem;
+    display: flex;
+    align-items: first baseline;
+    margin-left: 70px;
+    margin-right: 70px;
+
+
+
+}
+
+.footer__two__sec1 img {
+    width: 40px;
+    height: 40px;
+    margin: 0px;
+}
+
+.footer__two p {
+    font-size: smaller;
+    font-weight: lighter;
+}
+
+
+.footer__two__left {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sec__one {
+    display: flex;
+    gap: 10px;
+}
+
+.footer__two__condition h3 {
+    font-weight: 600;
+    display: flex;
+    gap: 10px;
+    justify-items: baseline;
+    flex-wrap: wrap;
+}
+
+.footer__two__condition a {
+    color: black;
+    flex-wrap: wrap;
+    font-size: 0.9rem;
+
+}
+
+.footer__two__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+
+
+}
+
+.right__sec__one {
+    display: flex;
+    gap: 10px;
+    justify-items: first baseline;
+
+
+}
+
+.select__sec {
+    padding: 7px;
+    border-radius: 10px;
+    border: solid rgb(121, 121, 121) 2px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin: 0;
+
+}
+
+.right__sec__two {
+    font-size: 1.3rem;
+    position: absolute;
+    right: 0px;
+    margin: 0px;
+    top: 50px;
+
+
+}
+
+.right__sec__two a {
+    padding: 12px;
+}
